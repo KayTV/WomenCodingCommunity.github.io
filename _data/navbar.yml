@@ -23,6 +23,12 @@
       url: program-interview-preparation
     - page: Study Group
       url: program-study-group
+    - page: Writing Club
+      url: program-writing-club
+    - page: Speaking Club
+      url: program-speaking-club
+    - page: AI Track
+      url: program-ai-track
 - name: Blog
   link: blog
   index: 3
