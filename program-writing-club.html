@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Writing Club Programme
+title: Writing Club
 ---
 
 <div class="page writing-club">
@@ -8,7 +8,26 @@ title: Writing Club Programme
     <div class="container">
         <div class="row">
             <div class="content-constrained">
-                
+                <section>
+                    <p>Writing Club is for a group of individuals looking to improve their writing skills whether is be 
+                    blog content, articles, or technical writing. We love to learn from each other and analyze articles 
+                    together. Come and share what you have written and get some great feedback by like-minded individuals!</p>
+                    <p>We host regular writing club events where we gather to write on topics that we are passionate about 
+                    and provide feedback to each other!</p>
+                    <p>Join our <a href="https://womencodingcommunity.slack.com/archives/C071K85SB60" target="_blank">slack
+                        channel #writing_club</a> to be part of this community.</p>
+                </section>
+                <section id="helpful_writing_links">
+                    <h2>Helpful Links</h2>
+                    <ul>
+                        {% for writing in site.data.writing_club %}
+                        <li>
+                            <p><a href={{writing.link}} target="_blank">{{writing.name}}</a>
+                            <p>{{writing.description}}</p>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </section>
             </div>
         </div>
     </div>

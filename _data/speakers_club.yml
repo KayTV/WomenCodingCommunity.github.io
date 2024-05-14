@@ -1,0 +1,10 @@
+- name: NaNoWriMo
+  link: https://nanowrimo.org/
+  description: Useful link if you want to challenge yourself and write something longer
+  date:
+  ongoing:
+- name: Technical Writing Course
+  link: https://developers.google.com/tech-writing/one
+  description: Small course for tenical writing!
+  date:
+  ongoing:
